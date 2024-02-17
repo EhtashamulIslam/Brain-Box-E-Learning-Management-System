@@ -32,7 +32,7 @@ Inside the Classroom
 
 **Requirement:**
 
-Sabrina Rahman Mazumder: Completed - Teacher can send invitation codes to students.
-Zawadul Kafi Nahee: Completed - Teachers can create class rooms.
-Md. Ehtashamul Islam Khan: Completed - Teacher who created the room can delete the room.
-Arittra Paul Ankur: Completed - Teacher can send invitation codes to students.
+1. Sabrina Rahman Mazumder: Completed - Teacher can send invitation codes to students.
+2. Zawadul Kafi Nahee: Completed - Teachers can create class rooms.
+3. Md. Ehtashamul Islam Khan: Completed - Teacher who created the room can delete the room.
+4. Arittra Paul Ankur: Completed - Teacher can send invitation codes to students.
