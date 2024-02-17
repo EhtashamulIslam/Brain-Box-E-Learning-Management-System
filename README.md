@@ -9,5 +9,30 @@ Install Instructions:
 
 **Sprint 1**
 
-Register Page
-![Register Page](Sprint1_PNG/registerPHP.png)
+Log In
+![Log In](assets/Sprint1/registerPHP.png)
+
+Register
+![Register](assets/Sprint1/NeedACCPHP.png)
+
+Create Class
+![Create Class1](assets/Sprint1/CreatCLassPHP.png)
+![Create Class2](assets/Sprint1/ClassRoomCreation.png)
+
+Join Class
+![Join Class](assets/Sprint1/JoinClass.png)
+
+Classroom Created
+![Classroom Created](assets/Sprint1/CLassRoomCreationDone.png)
+
+Inside the Classroom
+![Inside the classroom](assets/Sprint1/OurRoom.png)
+
+**Sprint Leader:** Sabrina Rahman Mazumder
+
+**Requirement:**
+
+Sabrina Rahman Mazumder: Completed - Teacher can send invitation codes to students.
+Zawadul Kafi Nahee: Completed - Teachers can create class rooms.
+Md. Ehtashamul Islam Khan: Completed - Teacher who created the room can delete the room.
+Arittra Paul Ankur: Completed - Teacher can send invitation codes to students.
