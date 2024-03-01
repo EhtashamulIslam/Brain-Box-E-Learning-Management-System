@@ -28,11 +28,33 @@ Classroom Created
 Inside the Classroom
 ![Inside the classroom](assets/Sprint1/OurRoom.png)
 
-**Sprint Leader:** Sabrina Rahman Mazumder
-
+**Sprint Leader:** Md.Ehtashamul Islam Khan
 **Requirement:**
 
 1. Sabrina Rahman Mazumder: Completed - Teacher can send invitation codes to students.
 2. Zawadul Kafi Nahee: Completed - Teachers can create class rooms.
 3. Md. Ehtashamul Islam Khan: Completed - Teacher who created the room can delete the room.
 4. Arittra Paul Ankur: Completed - Teacher can send invitation codes to students.
+
+**Sprint 2**
+
+Add Courses
+![Add Courses](assets/Sprint2/addcourses.png)
+
+Create Courses
+![Create Courses](assets/Sprint2/createcourses.png)
+
+Remove Section
+![Remove Section](assets/Sprint2/removesection.png)
+
+Upload Lesson
+![Upload Lesson](assets/Sprint2/uploadsection.png)
+
+**Sprint Leader:** Sabrina Rahman Mazumder
+**Requirement:**
+
+1. Sabrina Rahman Mazumder: Completed - Students can add their desired courses.
+2. Zawadul Kafi Nahee: Completed - Students and teachers can search courses.
+3. Md. Ehtashamul Islam Khan: Completed - Teachers can upload lessons.
+4. Arittra Paul Ankur: Completed - Teachers and students can view the timeline.
+
