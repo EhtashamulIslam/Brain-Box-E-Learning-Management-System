@@ -29,7 +29,7 @@ Inside the Classroom
 ![Inside the classroom](assets/Sprint1/OurRoom.png)
 
 **Sprint Leader:** Md.Ehtashamul Islam Khan
-**Requirement:**
+**Requirements:**
 
 1. Sabrina Rahman Mazumder: Completed - Teacher can send invitation codes to students.
 2. Zawadul Kafi Nahee: Completed - Teachers can create class rooms.
@@ -51,7 +51,7 @@ Upload Lesson
 ![Upload Lesson](assets/Sprint2/uploadsection.png)
 
 **Sprint Leader:** Sabrina Rahman Mazumder
-**Requirement:**
+**Requirements:**
 
 1. Sabrina Rahman Mazumder: Completed - Students can add their desired courses.
 2. Zawadul Kafi Nahee: Completed - Students and teachers can search courses.
