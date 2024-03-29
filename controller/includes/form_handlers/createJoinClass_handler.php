@@ -11,11 +11,14 @@ $user2= "";
 	$userLoggedIn  = $_SESSION['username'];
 	$user_details_query = mysqli_query($con, "SELECT * FROM users WHERE username = '$userLoggedIn'");
 	$user = mysqli_fetch_array($user_details_query);
+	
+    //create class part
+
 	if(isset($_POST['createClass_button'])){
 		$cName = strip_tags($_POST['className']); //remove html tag
 		$cName = str_replace(' ', '', $cName); //remove spaces
 	    //$_SESSION['className'] = $cName;   // stores class name into session variable 
-    
+        
         $sec = strip_tags($_POST['section']); //remove html tag
 		$sec = str_replace(' ', '', $sec); //remove spaces
 	    //$_SESSION['section'] = $sec; 

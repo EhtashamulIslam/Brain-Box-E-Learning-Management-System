@@ -4,19 +4,26 @@ require 'config/config.php';
 require 'includes/form_handlers/register_handler.php';
 require 'includes/form_handlers/login_handler.php';
 ?>
+
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BrainBox</title>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="assets/css/register_style.css">
 </head>
+
 <body>
+
     <?php 
+
     if (isset($_POST['register_button'])) {
         echo '
              <script>
@@ -28,6 +35,7 @@ require 'includes/form_handlers/login_handler.php';
         	';
     }
     ?>
+
     <div class="wrapper">
         <div class="landing">
             <h1 class="brand">BrainBox</h1>
@@ -61,8 +69,12 @@ require 'includes/form_handlers/login_handler.php';
                     <input type="submit" name="login_button" id="button" value="Login">
                     <br>
                     <a href="#" id="signup" class="signup">Need an account? Register here!</a>
+
                 </form>
+
             </div>
+
+
             <div id="second">
                 <form action="register.php" method="POST" id="register-form">
                     <input type="text" name="reg_fname" placeholder="First name" value="<?php 
@@ -71,37 +83,49 @@ require 'includes/form_handlers/login_handler.php';
                                                                                         } ?>" required>
 
                     <br>
+
                     <?php if (in_array("Email already in use<br>", $error_array)) echo "Email already in use<br>"; ?>
+
                     <input type="text" name="reg_lname" placeholder="Last name" value="<?php 
                                                                                         if (isset($_SESSION['reg_lname'])) {
                                                                                             echo $_SESSION['reg_lname'];
                                                                                         } ?>" required>
                     <br>
+
                     <input type="email" name="reg_email" placeholder="Email" value="<?php 
                                                                                     if (isset($_SESSION['reg_email'])) {
                                                                                         echo $_SESSION['reg_email'];
                                                                                     } ?>" required>
                     <br>
+
                     <input type="email" name="reg_email2" placeholder="Confirm email" value="<?php 
                                                                                                 if (isset($_SESSION['reg_email2'])) {
                                                                                                     echo $_SESSION['reg_email2'];
                                                                                                 } ?>" required>
                     <br>
+
                     <?php if (in_array("Email already in use<br>", $error_array)) echo "Email already in use<br>";
                     else if (in_array("Invalid email format<br>", $error_array)) echo "Invalid email format<br>";
                     else if (in_array("Email do not match<br>", $error_array)) echo "Email do not match<br>"; ?>
+
                     <input type="password" name="reg_password" placeholder="Password" required>
                     <br>
                     <input type="password" name="reg_password2" placeholder="Confirm password" required>
                     <br>
+
                     <?php if (in_array("Your password do not match<br>", $error_array)) echo "Your password do not match<br>"; ?>
+
                     <input type="submit" name="register_button" id="button" value="Register">
                     <br>
                     <br>
                     <?php if (in_array("<span style = 'color: #14C800;'> You're all set! Go ahead and login! </span> <br>", $error_array)) echo "<span style = 'color: #14C800;'> You're all set! Go ahead and login! </span> <br>"; ?>
+
+
                     <a href="#" id="signin" class="signin">Already have an account? Sign in!</a>
+
                 </form>
             </div>
+
         </div>
     </div>
     <script>
@@ -110,7 +134,9 @@ require 'includes/form_handlers/login_handler.php';
         landingBtn.addEventListener('click', () => {
             landingPage.classList.add('animated', 'slideOutUp');
         });
+
         $(document).ready(function() {
+   
         //on click signup, hide login and show registration form
         $("#signup").click(function()  {
             $("#first").slideUp("slow", function(){
@@ -125,6 +151,8 @@ require 'includes/form_handlers/login_handler.php';
             });
 
         });
+ 
     </script>
 </body>
+
 </html> 

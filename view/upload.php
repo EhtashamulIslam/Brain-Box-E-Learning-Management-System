@@ -28,12 +28,12 @@ if(isset($_FILES['image']['name'])){
 		$ImageType = @explode('/', $_FILES['image']['type']);
 		$type = $ImageType[1]; //file type	
 	//Set Upload directory    
-		$uploaddir = $_SERVER['DOCUMENT_ROOT'].'/assets/images/profilePics';
+		$uploaddir = $_SERVER['DOCUMENT_ROOT'].'/demo/assets/images/profilePics';
 	//Set File name	
 		$file_temp_name = $profile_id.'_original.'.md5(time()).'n'.$type; //the temp file name
-		$fullpath = $uploaddir."/assets/images/profilePics".$file_temp_name; // the temp file path
+		$fullpath = $uploaddir."/".$file_temp_name; // the temp file path
 		$file_name = $profile_id.'_temp.jpeg'; //$profile_id.'_temp.'.$type; // for the final resized image
-		$fullpath_2 = $uploaddir."/assets/images/profilePics".$file_name; //for the final resized image
+		$fullpath_2 = $uploaddir."/".$file_name; //for the final resized image
 	//Move the file to correct location
 		$move = move_uploaded_file($ImageTempName, $fullpath); 
 		chmod($fullpath, 0777);  
@@ -41,7 +41,7 @@ if(isset($_FILES['image']['name'])){
 		if (!$move) { 
 			die ('File didnt upload');
 		} else { 
-			$imgSrc= "/assets/images/profilePics".$file_name; // the image to display in crop area
+			$imgSrc= "assets/images/profilePics/".$file_name; // the image to display in crop area
 			$msg= "Upload Complete!";  	//message to page
 			$src = $file_name;	 		//the file name to post from cropping form to the resize		
 		} 

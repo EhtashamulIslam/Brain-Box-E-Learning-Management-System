@@ -4,6 +4,7 @@ require 'includes/form_handlers/createJoinClass_handler.php';
 include("includes/classes/User.php");
 include("includes/classes/User2.php");
 include("includes/classes/Post.php");
+
    if(isset($_SESSION['username'])){
 		 $userLoggedIn  = $_SESSION['username'];
 		 $userLoggedIn2  = $_SESSION['username'];
@@ -15,6 +16,7 @@ include("includes/classes/Post.php");
    else{
    	header("Location:register.php");
    }
+
  ?>
 
 <!DOCTYPE html>

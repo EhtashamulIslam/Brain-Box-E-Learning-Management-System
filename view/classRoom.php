@@ -125,13 +125,16 @@ if(isset($_POST['search__btn'])){
                 <input type="text" placeholder='Search posts' autocomplete='off'  id='search-bar' name='searched_text'><button id="search__btn" name="search__btn"><i class="fas fa-search"></i></button>
         </form> 
         <div class="assignment_box">
-            <a href="timeline.php" id="timelineBtn"><i class="far fa-file-word" style='margin-right: 5px;'></i>Timeline</a>
+            <a href="upload.php" id="timelineBtn"><i class="far fa-file-word" style='margin-right: 5px;'></i>Timeline</a>
 
             <a href="email.php" id="emailBtn"><i class="fab fa-megaport" style='margin-right: 5px;'></i>Email</a>
             <a href="#" id="postBtn"><i class="fab fa-megaport" style='margin-right: 5px;'></i>Post</a>
             
             <a href="#" id="assignmentBtn"><i class="far fa-file-word" style='margin-right: 5px;'></i>Assignment</a>
 
+            <a href="quiz.php" id="quizBtn"><i class="fab fa-megaport" style='margin-right: 5px;'></i>Quiz</a>
+
+            <a href="lesson.php" id="lessonBtn"><i class="far fa-file-word" style='margin-right: 5px;'></i>Lessons</a>
             <?php  if(isset($_POST['upload'])) {
              echo'<span class="assgn-Btn_notification_badge" id="unread_notification"></span>';   
             }?>
@@ -161,9 +164,9 @@ if(isset($_POST['search__btn'])){
         <br>
         <!-- <?php echo "Posts: " . $user_array['num_posts'] . "<br>"; ?> -->
         <?php 
-        $stundentsName  = new User($con, $classCode ,$userLoggedIn);
+        $studentsName  = new User($con, $classCode ,$userLoggedIn);
         echo "<p>Classmates: </p>"; ?>
-             <?php $stundentsName->getStudentsUserName($array) ?>
+             <?php $studentsName->getStudentsUserName($array) ?>
     </div>
 
     <div class="main_column">
