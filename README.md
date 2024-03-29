@@ -58,3 +58,31 @@ Upload Lesson
 3. Md. Ehtashamul Islam Khan: Completed - Teachers can upload lessons.
 4. Arittra Paul Ankur: Completed - Teachers and students can view the timeline.
 
+**Sprint 3**
+
+Add Courses
+![Start Quiz - Edit Quiz](assets/Sprint2/addcourses.png)
+
+Create Courses
+![Delete Quiz](assets/Sprint2/createcourses.png)
+
+Remove Section
+![In Quiz](assets/Sprint2/removesection.png)
+
+Upload Lesson
+![Quiz Ranking](assets/Sprint2/uploadsection.png)
+
+Upload Lesson
+![Quiz Results](assets/Sprint2/uploadsection.png)
+
+Upload Lesson
+![Start Quiz](assets/Sprint2/uploadsection.png)
+
+**Sprint Leader:** Zawadul Kafi Nahee
+**Requirements:**
+
+1. Sabrina Rahman Mazumder: Completed - Students can add their desired courses.
+2. Zawadul Kafi Nahee: Completed - Students and teachers can search courses.
+3. Md. Ehtashamul Islam Khan: Completed - Teachers can upload lessons.
+4. Arittra Paul Ankur: Completed - Teachers and students can view the timeline.
+
