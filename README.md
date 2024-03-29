@@ -60,22 +60,22 @@ Upload Lesson
 
 **Sprint 3**
 
-Add Courses
+Start Quiz - Edit Quiz
 ![Start Quiz - Edit Quiz](assets/Sprint3/CreateQuizEditQuiz.png)
 
-Create Courses
+Delete Quiz
 ![Delete Quiz](assets/Sprint3/DeleteQuiz.png)
 
-Remove Section
+In Quiz
 ![In Quiz](assets/Sprint3/InQuiz.png)
 
-Upload Lesson
+Quiz Ranking
 ![Quiz Ranking](assets/Sprint3/QuizRanking.png)
 
-Upload Lesson
+Quiz Results
 ![Quiz Results](assets/Sprint3/QuizResults.png)
 
-Upload Lesson
+Start Quiz
 ![Start Quiz](assets/Sprint3/StartQuiz.png)
 
 **Sprint Leader:** Zawadul Kafi Nahee
