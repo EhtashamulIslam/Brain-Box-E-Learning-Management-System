@@ -61,28 +61,27 @@ Upload Lesson
 **Sprint 3**
 
 Add Courses
-![Start Quiz - Edit Quiz](assets/Sprint2/addcourses.png)
+![Start Quiz - Edit Quiz](assets/Sprint3/CreateQuizEditQuiz.png)
 
 Create Courses
-![Delete Quiz](assets/Sprint2/createcourses.png)
+![Delete Quiz](assets/Sprint3/DeleteQuiz.png)
 
 Remove Section
-![In Quiz](assets/Sprint2/removesection.png)
+![In Quiz](assets/Sprint3/InQuiz.png)
 
 Upload Lesson
-![Quiz Ranking](assets/Sprint2/uploadsection.png)
+![Quiz Ranking](assets/Sprint3/QuizRanking.png)
 
 Upload Lesson
-![Quiz Results](assets/Sprint2/uploadsection.png)
+![Quiz Results](assets/Sprint3/QuizResults.png)
 
 Upload Lesson
-![Start Quiz](assets/Sprint2/uploadsection.png)
+![Start Quiz](assets/Sprint3/StartQuiz.png)
 
 **Sprint Leader:** Zawadul Kafi Nahee
 **Requirements:**
 
-1. Sabrina Rahman Mazumder: Completed - Students can add their desired courses.
-2. Zawadul Kafi Nahee: Completed - Students and teachers can search courses.
-3. Md. Ehtashamul Islam Khan: Completed - Teachers can upload lessons.
-4. Arittra Paul Ankur: Completed - Teachers and students can view the timeline.
-
+1. Sabrina Rahman Mazumder: Completed - Teachers can create quizzes.
+2. Zawadul Kafi Nahee: Completed - Teachers can edit the quizzes.
+3. Md. Ehtashamul Islam Khan: Completed - Teachers can delete the quizzes.
+4. Arittra Paul Ankur: Completed - Students can view the results after taking the quizzes.
