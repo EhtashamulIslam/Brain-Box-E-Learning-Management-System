@@ -92,19 +92,19 @@ Start Quiz
 **Sprint 4**
 
 Timeline Post
-![Timeline Post](assets/Sprint4/Post.png)
+![Timeline Post](assets/Sprint4/StudentPost.png)
 
 Edit Comment
-![Edit Comment](assets/Sprint4/Edit.png)
+![Edit Comment](assets/Sprint4/StudentEdit.png)
 
 Delete Comment
-![Delete Comment](assets/Sprint4/Delete.png)
+![Delete Comment](assets/Sprint4/StudentDelete.png)
 
 Comment Reply
-![Comment Reply](assets/Sprint4/Comment1.png)
+![Comment Reply](assets/Sprint4/StudentComment1.png)
 
 Comment Reply
-![Comment Reply](assets/Sprint4/Comment2.png)
+![Comment Reply](assets/Sprint4/StudentComment2.png)
 
 **Sprint Leader:** Arittra Paul Ankur
 
@@ -114,4 +114,3 @@ Comment Reply
 2. Zawadul Kafi Nahee: Completed - Students can reply to any posts.
 3. Md. Ehtashamul Islam Khan: Completed - Students can upload photos.
 4. Arittra Paul Ankur: Completed - Students can delete their posts.
-
